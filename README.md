@@ -30,7 +30,6 @@
 - 🧠 I specialize in **Artificial Intelligence, Machine Learning, and Deep Learning**, with a passion for designing intelligent systems that solve real-world problems.
 - 🔭 I’m continuously exploring the frontiers of **Large Language Models (LLMs)**, **Computer Vision**, and **Agentic Workflows**.
 - 💡 I love transforming complex academic research into scalable, user-centric applications.
-- 💬 Ask me about **Python, PyTorch, Neural Network Architectures, and Web Development**.
 
 ## 🛠️ Tech Stack & Tools
 
