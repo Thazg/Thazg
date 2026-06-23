@@ -60,7 +60,7 @@
 
 | Project | Description | Technologies |
 |---------|-------------|--------------|
-| **[Personal Portfolio](#)** | A premium, interactive personal portfolio website showcasing my projects, skills, and experience with modern web aesthetics. | Next.js, Tailwind CSS, Framer Motion |
+| **[Personal Portfolio](https://github.com/Thazg/Portfolio)** | A premium, interactive personal portfolio website showcasing my projects, skills, and experience with modern web aesthetics. | Next.js, Tailwind CSS, Framer Motion |
 | **[AI Agent System](#)** | *(Add your AI project here)* A robust framework for autonomous AI agents capable of reasoning and executing tasks. | Python, LangChain, OpenAI API |
 | **[Computer Vision App](#)** | *(Add your CV project here)* Real-time object detection and classification system for edge devices. | PyTorch, OpenCV, YOLO |
 
