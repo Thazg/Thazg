@@ -65,7 +65,7 @@
 | **[Computer Vision App](#)** | *(Add your CV project here)* Real-time object detection and classification system for edge devices. | PyTorch, OpenCV, YOLO |
 
 ---
-
+<!--
 ## 🚀 About This Repository (My Portfolio)
 
 This repository contains the source code for my personal portfolio website. Built with modern web technologies for optimal performance and aesthetics.
@@ -87,3 +87,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 </div>
+-->
