@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Nguyen Tam Thang</h1>
+<h1 align="center">👋 Hi, I'm Nguyen Tam Thang</h1>
 
 <h3 align="center">AI Engineer | Computer Science Student at HCMUT</h3>
 
@@ -8,27 +8,22 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/thangnguyen0512/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
-  </a>
-  <a href="https://nguyentamthang.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Personal portfolio" />
-  </a>
-  <a href="mailto:thang.nguyen0512@hcmut.edu.vn">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nguyen Tam Thang" />
-  </a>
+  <a href="https://www.linkedin.com/in/thangnguyen0512/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn profile" /></a>
+  <a href="https://www.facebook.com/ntt0512/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook profile" /></a>
+  <a href="https://nguyentamthang.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Personal portfolio" /></a>
+  <a href="mailto:thang.nguyen0512@hcmut.edu.vn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Nguyen Tam Thang" /></a>
 </p>
 
-## About me
+## 👨‍💻 About me
 
-- Computer Science student at **Ho Chi Minh City University of Technology (HCMUT, VNU-HCM)**.
-- Interested in **machine learning, recommender systems, information retrieval, and retrieval-augmented generation**.
-- I compare alternatives with explicit evaluation protocols, then document the quality, cost, and operational trade-offs.
-- My hands-on work spans data preparation, model experiments, API development, Docker, CI, observability, and web demonstrations.
+- 🎓 Computer Science student at **Ho Chi Minh City University of Technology (HCMUT, VNU-HCM)**.
+- 🤖 Interested in **machine learning, recommender systems, information retrieval, and retrieval-augmented generation**.
+- 🔬 I compare alternatives with explicit evaluation protocols, then document the quality, cost, and operational trade-offs.
+- 🛠️ My hands-on work spans data preparation, model experiments, API development, Docker, CI, observability, and web demonstrations.
 
-## Featured projects
+## 🌟 Featured projects
 
-### E-commerce Recommendation System
+### 🛒 E-commerce Recommendation System
 
 **Chronological recommendation evaluation, hybrid retrieval, and learned ranking on 2.76 million Retailrocket events.**
 
@@ -39,9 +34,13 @@
 
 **Tech:** Python, NumPy/SciPy, pandas/Parquet, implicit ALS, FastAPI, Docker, GitHub Actions, JavaScript
 
-[Source](https://github.com/Thazg/ecommerce-recsys) | [Model explorer](https://ecommerce-recsys.vercel.app/) | [Shopping demo](https://shoprecome.vercel.app/)
+<p>
+  <a href="https://github.com/Thazg/ecommerce-recsys"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Recommendation system source code" /></a>
+  <a href="https://ecommerce-recsys.vercel.app/"><img src="https://img.shields.io/badge/Model%20Explorer-1E477A?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="RecoLens stored-model explorer" /></a>
+  <a href="https://shoprecome.vercel.app/"><img src="https://img.shields.io/badge/Shopping%20Demo-2563EB?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="RecoMe browser-side shopping demo" /></a>
+</p>
 
-### Enterprise Knowledge Intelligence Platform
+### 🧠 Enterprise Knowledge Intelligence Platform
 
 **Hybrid RAG over seven indexed technical-documentation collections, with cited answers and separate local/cloud runtime profiles.**
 
@@ -57,41 +56,63 @@
 
 **Tech:** Python, FastAPI, Qdrant, BGE, BM25, FastEmbed, Docker, Next.js, GitHub Actions, Prometheus, Grafana
 
-[Source](https://github.com/Thazg/knowledge-intelligence-platform) | [Web demo](https://enterprisekip.vercel.app/) | [API docs](https://enterprise-kip-api.onrender.com/docs)
+<p>
+  <a href="https://github.com/Thazg/knowledge-intelligence-platform"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Enterprise KIP source code" /></a>
+  <a href="https://enterprisekip.vercel.app/"><img src="https://img.shields.io/badge/Web%20Demo-1E477A?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Enterprise KIP web demo" /></a>
+  <a href="https://enterprise-kip-api.onrender.com/docs"><img src="https://img.shields.io/badge/API%20Docs-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="Enterprise KIP API documentation" /></a>
+</p>
 
 The Render Free backend may take time to wake after inactivity.
 
-### Personal Portfolio
+### 💬 Nova RAG Workspace
+
+**A full-stack workspace for uploading personal documents, asking questions, and inspecting the passages behind streamed answers.**
+
+- Built document ingestion, account-scoped indexes, conversation history, and a React workspace with filename, PDF-page, and extracted-line source references.
+- Kept **BM25 as the default retriever** and reused the application's parser, chunker, retriever, and context packer in offline evaluation. FAISS/RRF retrieval remains an explicit opt-in configuration.
+- Recorded a **100-question benchmark over 10 checksum-pinned arXiv PDFs**: 160 pages, 555 chunks, 90 answerable and 10 unanswerable questions. Production-path BM25 reached **75/90 Page Hit@5 (83.33%) and 0.5541 MRR@5** on the answerable subset. [Pinned evaluation report](https://github.com/Thazg/NovaRAGChatBot/blob/a70087f2eeb1da56c36e21a3b424537c0b02b098/backend/evaluation/results.json)
+- Added ownership checks, rotating refresh-token sessions, memory-only access tokens, bounded upload validation, and SSRF controls for remote PDF downloads.
+- Implemented checksum-verified index revisions, cache invalidation, and deletion barriers for background indexing. Interrupted answer streams retain partial output and an incomplete status.
+- Deployed the frontend on **Vercel** and the FastAPI backend on **Render**, with **Groq** for hosted generation and an **Ollama** option for local use.
+- Added backend regression and retrieval gates, frontend build/unit checks, and **Playwright** browser tests in GitHub Actions. Browser fixtures check application behavior separately from model quality.
+
+**Evaluation scope:** independent annotation review is pending. Unanswerable retrieval scored **0/10 correct abstentions**; there is no calibrated refusal threshold or human-validated generated-answer quality result. These retrieval scores do not establish chatbot factuality.
+
+**Tech:** Python, FastAPI, BM25, FAISS (opt-in), React, TypeScript, Vite, Tailwind CSS, Groq/Ollama, Docker, Playwright, GitHub Actions
+
+<p>
+  <a href="https://github.com/Thazg/NovaRAGChatBot"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Nova RAG Workspace source code" /></a>
+  <a href="https://novachatbot.vercel.app/"><img src="https://img.shields.io/badge/Web%20Demo-1E477A?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Nova RAG Workspace web demo" /></a>
+  <a href="https://novaaiagent-4.onrender.com/docs"><img src="https://img.shields.io/badge/API%20Docs-009688?style=for-the-badge&amp;logo=fastapi&amp;logoColor=white" alt="Nova RAG Workspace API documentation" /></a>
+</p>
+
+### 🌐 Personal Portfolio
 
 A responsive website presenting my projects, skills, education, and contact information, with reduced-motion support and a validated email contact form.
 
 **Tech:** Next.js, React, TypeScript, Tailwind CSS, Framer Motion, Zod, Resend, Vercel
 
-[Source](https://github.com/Thazg/Portfolio) | [Live website](https://nguyentamthang.vercel.app/)
+<p>
+  <a href="https://github.com/Thazg/Portfolio"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Personal portfolio source code" /></a>
+  <a href="https://nguyentamthang.vercel.app/"><img src="https://img.shields.io/badge/Live%20Website-000000?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Personal portfolio website" /></a>
+</p>
 
-## Technologies I work with
+## 🛠️ Tech stack
 
 | Area | Tools and methods |
 | :--- | :--- |
-| ML and data | Python, PyTorch, NumPy, SciPy, pandas, Parquet |
-| Recommendation and retrieval | implicit ALS, ItemKNN, learned ranking, BM25, hybrid rank fusion, Qdrant, Hugging Face, SentenceTransformers, FastEmbed |
-| Backend | FastAPI, Pydantic, REST APIs |
-| Web | Next.js, React, TypeScript, JavaScript, Tailwind CSS, Framer Motion |
-| Engineering and operations | Git, GitHub Actions, Docker, Prometheus, Grafana, Ollama, Render, Vercel |
-| Additional languages | C++, Java, SQL |
+| **🧠 ML & data** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="20" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="20" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy" height="20" /> <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&amp;logo=scipy&amp;logoColor=black" alt="SciPy" height="20" /> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="pandas" height="20" /> <img src="https://img.shields.io/badge/Parquet-2563EB?style=flat-square" alt="Parquet" height="20" /> |
+| **🔎 Retrieval & ranking** | <img src="https://img.shields.io/badge/implicit%20ALS-2563EB?style=flat-square" alt="implicit ALS" height="20" /> <img src="https://img.shields.io/badge/ItemKNN-1E477A?style=flat-square" alt="ItemKNN" height="20" /> <img src="https://img.shields.io/badge/Learned%20ranking-1E477A?style=flat-square" alt="Learned ranking" height="20" /> <img src="https://img.shields.io/badge/BM25-4B8BBE?style=flat-square" alt="BM25" height="20" /> <img src="https://img.shields.io/badge/Hybrid%20rank%20fusion-1E477A?style=flat-square" alt="Hybrid rank fusion" height="20" /> <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&amp;logo=qdrant&amp;logoColor=white" alt="Qdrant" height="20" /> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face" height="20" /> <img src="https://img.shields.io/badge/SentenceTransformers-2455A6?style=flat-square" alt="SentenceTransformers" height="20" /> <img src="https://img.shields.io/badge/FastEmbed-FF6B6B?style=flat-square" alt="FastEmbed" height="20" /> <img src="https://img.shields.io/badge/FAISS-2563EB?style=flat-square" alt="FAISS" height="20" /> |
+| **⚙️ Backend** | <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20" /> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic" height="20" /> <img src="https://img.shields.io/badge/REST%20APIs-1E477A?style=flat-square" alt="REST APIs" height="20" /> |
+| **💻 Web** | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" height="20" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="20" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript" height="20" /> <img src="https://img.shields.io/badge/Tailwind%20CSS-0F172A?style=flat-square&amp;logo=tailwindcss&amp;logoColor=38BDF8" alt="Tailwind CSS" height="20" /> <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&amp;logo=framer&amp;logoColor=white" alt="Framer Motion" height="20" /> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite" height="20" /> |
+| **🚀 Engineering** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20" /> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" height="20" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="20" /> <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&amp;logo=prometheus&amp;logoColor=white" alt="Prometheus" height="20" /> <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&amp;logo=grafana&amp;logoColor=white" alt="Grafana" height="20" /> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="20" /> <img src="https://img.shields.io/badge/Render-000000?style=flat-square&amp;logo=render&amp;logoColor=white" alt="Render" height="20" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Vercel" height="20" /> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square" alt="Playwright" height="20" /> |
+| **⌨️ Languages** | <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" height="20" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java" height="20" /> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square" alt="SQL" height="20" /> |
 
 These tools span different projects and runtime profiles; each repository documents its implemented stack and evaluated alternatives.
 
-## Current focus
+## 🎯 Current focus
 
 - Strengthening my foundations in machine learning and deep learning.
 - Building recommendation and RAG systems with explicit evaluation protocols and reproducible results.
 - Improving the connection between model quality, resource cost, API behavior, and user experience.
 - Exploring multimodal AI as a further learning direction.
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/thangnguyen0512/">LinkedIn</a> &nbsp;|&nbsp;
-  <a href="mailto:thang.nguyen0512@hcmut.edu.vn">Email</a> &nbsp;|&nbsp;
-  <a href="https://nguyentamthang.vercel.app/">Portfolio</a> &nbsp;|&nbsp;
-  <a href="https://www.facebook.com/ntt0512/">Facebook</a>
-</p>
